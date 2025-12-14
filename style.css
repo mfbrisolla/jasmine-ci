@@ -1,0 +1,45 @@
+.body {
+	font-family: "Roboto", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+	font-variation-settings:
+	"wdth" 100;
+	background: #546E7A;
+	}
+
+.title {
+	text-align: center;
+	text-transform: uppercase;
+	color: #A2AEB4;
+	font-size: 52px;
+
+}
+
+.input,
+.result-container {
+	width: 100%;
+	color: #546E7A;
+	background: #A2AEB4;
+	border: solid 1px #FFF;
+	font-size: 48px;
+	padding: 2px;
+	text-align: center;
+}
+
+.result-container {
+	width: 50%;
+	margin: 50px auto 0;
+}
+
+.result-container .title {
+	font-size: 18px;
+	color: #000;
+	text-align: center;
+}
+
+.version {
+	color: #FFF;
+	margin-top: 10px;
+	text-align: center;
+}

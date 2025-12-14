@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>Simple calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <script src="calculator.js"></script>
+    <script src="main.js"></script>
+    <script>
+    	window.onload = function() {
+    		showVersion();
+    	}
+    </script>
+  </head>
+  <body class="body">
+    <main>
+    	<h1 class="title">Simple calculator</h1>
+    	<input 
+    		class="input" 
+    		type="text" 
+    		title="calculator"
+    		placeholder="Enter operation" 
+    		value="1+2" 
+    		onchange="calculate(this.value)">
+    	</input>
+    	<div class="result-container">
+    		<div class="title">Result</div>
+    		<span id="result">3</span>
+    	</div>
+    	<div class="version">version <span id="version"></span></div>
+    </main>
+  </body>
+</html>
